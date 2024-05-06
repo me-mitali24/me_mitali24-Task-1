@@ -1,0 +1,81 @@
+body {
+    margin: 15;
+    font-family:Arial, Helvetica, sans-serif ;
+    
+
+    background-image:url("ibg-mg.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+}
+header img
+{
+    width: 20px;
+    height: 30px;
+    margin-top:1opx;
+    margin-left: 20px;
+}
+ header # {
+    text-color: white;
+}
+
+h1
+{   text-align: center left;
+    text-shadow: 2px 2px;
+    color:white;
+    font-size:40px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center left;
+    color:white;
+    font-size:15px;
+    font-weight: normal;
+}
+
+p1 {
+    text-align: left;
+    color:burlywood;
+    font-size:30px;
+    font-weight: 200;
+    margin-left:100px;
+}
+p2 {
+    text-align: left;
+    color:burlywood;   
+}
+
+nav {
+   
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 30px 5px;
+    background-color:blueviolet;
+    transition: background-color 0.3 ease;
+}
+nav ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content: right;
+}
+
+nav ul li {
+    margin:0 15px;
+}
+
+
+nav ul li a{
+    color:black;
+    text-decoration:none;
+    transition: color 0.3s ease;
+}
+
+
+nav ul li a:hover {
+    color:white;
+}
